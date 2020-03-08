@@ -1,3 +1,9 @@
+/*
+* {
+    border: 1px solid black;
+}
+*/
+
 html, body {
     margin: 0;
     padding: 0;
@@ -29,16 +35,16 @@ nav {
 }
 
 #pageimg {
-    position:absolute;
-    
-/*    flex-wrap:wrap;*/
-    width:50% auto;
-    margin-left:100px auto;
+    position:relative;
+    right:0%;
+/*    width:50%;*/
+/*    margin-left:10px auto;*/
 }
 
 #game {
-    position: absolute;
-    left: 0px;
+/*    position: absolute;*/
+    position: relative;
+    left: 15%;
     bottom: -30px;
     height: 285px;
     width: 300px;
@@ -48,24 +54,14 @@ nav {
 #gameexplain {
     margin-left:20px;
 }
-/*
-#pageimg {
-    width:80%;
-    height:100%;
-}
-*/
-
-#nav-link {
-    display: flex;
-    justify-content: space-evenly;
-    width: 40%;
-    font-size: 30px;
-    color: #4A455C;
-}
 
 #first-page {
-    position: relative;
+    border:2px black solid;
+/*    display: flex;*/
+/*    flex-wrap:wrap;*/
     margin: 30px auto;
+/*    justify-content: center;*/
+    position: relative;
     margin-bottom: 60px;
     width: 100%;
     color:#EBCE8B;
@@ -123,37 +119,11 @@ div > img{
     right:10px;
 }
 
+/*
 img > img {
     width: 325px;
     height:330px;
     border:0px;
     right:10px;
-}
-
-/*
-#bookcover{
-    position:relative;
-    width:300px;
-    height:320px;
-    left:300px;
-    background-image:url("../img/cover3.png");
-}
-
-#bookcover1{
-    position:absolute;
-    width:300px;
-    height:320px;
-    left:300px;
-    top:350px;
-    background-image:url("../img/cover2.png");
-}
-
-#bookcover2{
-    position:absolute;
-    width:280px;
-    height:320px;
-    left:10px;
-    top:350px;
-    background-image:url("../img/cover1.png");
 }
 */

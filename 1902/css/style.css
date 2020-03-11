@@ -27,6 +27,10 @@ body {
     font-style:italic;
 }
 
+#name {
+    width:20%;
+}
+
 #intro {
     color:#EBCE8B;
     font-size:30px;
